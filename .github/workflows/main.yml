@@ -2,8 +2,8 @@ name: React + Capacitor Test
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-#   push:
-#     branches: [ master ]
+  push:
+    branches: [ master ]
   
   schedule:
     - cron:  '1 22 * * *'
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: React Cap ios
-        uses: ionic-team/appflow-build@v1
+        uses: ionic-team/appflow-build@v1.0.2
         with:
           token: ${{ secrets.SECRET }}
           app-id: a9bdd75c
