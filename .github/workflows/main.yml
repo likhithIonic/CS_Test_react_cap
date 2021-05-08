@@ -2,9 +2,12 @@ name: React + Capacitor Test
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
+  push:
+    branches: [ master ]
+  
+  schedule:
+    - cron:  '1 22 * * *'    
 
-
-    # * is a special character in YAML so you have to quote this string
 
 
 jobs:
