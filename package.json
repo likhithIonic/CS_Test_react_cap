@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@capacitor/android": "^2.4.5",
-    "@capacitor/core": "2.4.5",
-    "@capacitor/ios": "^2.4.5",
+    "@capacitor/android": "^3.4.1",
+    "@capacitor/app": "^1.1.0",
+    "@capacitor/core": "^3.4.1",
+    "@capacitor/haptics": "^1.1.4",
+    "@capacitor/ios": "^3.4.1",
+    "@capacitor/keyboard": "^1.2.2",
+    "@capacitor/status-bar": "^1.0.8",
     "@ionic/react": "^5.0.7",
     "@ionic/react-router": "^5.0.7",
     "@testing-library/jest-dom": "^4.2.4",
@@ -47,7 +51,7 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "2.4.5"
+    "@capacitor/cli": "^3.4.1"
   },
   "description": "An Ionic project"
 }
