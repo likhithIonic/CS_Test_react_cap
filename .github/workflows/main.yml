@@ -1,4 +1,4 @@
-name: React + Capacitor Test 
+name: React + Capacitor v3
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
@@ -13,7 +13,6 @@ on:
 jobs:
   # This will build an IPA & Upload the artifact in iOS.zip
 
-  # 
   build-ios-test:
     runs-on: ubuntu-latest
     steps:
