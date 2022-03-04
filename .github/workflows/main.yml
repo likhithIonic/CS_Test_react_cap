@@ -38,7 +38,6 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
           
-    # 
   build-web-test:
     runs-on: ubuntu-latest
     steps:
